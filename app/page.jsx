@@ -1,12 +1,7 @@
-import Navbar from "./section/Navbar"
-import Hero from "./section/Hero"
+import MyPage from "./section/MyPage"
 const App = () => {
   return (
-    <main className=" mx-auto relative">
-      <Navbar />
-      <Hero />
-    </main>
-
+    <MyPage />
   )
 }
 
